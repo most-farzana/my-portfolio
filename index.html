@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Most: Farzana Khatun | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    
+    <nav>
+        <div class="logo">Farzana</div>
+        <ul class="nav-links">
+        <li><a href="javascript:void(0)" id="nav-home">Home</a></li>
+        <li><a href="javascript:void(0)" id="nav-services" >Services</a></li>
+        <li><a href="javascript:void(0)" id="nav-skills">Skills</a></li>
+        <li><a href="javascript:void(0)" id="nav-education">Education</a></li>
+        <li><a href="javascript:void(0)" id="nav-experience">Experience</a></li>
+        <li><a href="javascript:void(0)" id="nav-contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="home-overlay" class="overlay">
+        <div class="box">
+            <span class="close" onclick="closeBox('home-overlay')">&times;</span>
+        <h2>Welcome to My World</h2>
+        <p>Hi, I'm Farzana ! A passionate Web Developer from Bangladesh.</p>
+        </div>
+    </div>
+
+    <div id="services-overlay" class="overlay">
+        <div class="box">
+            <span class="close" onclick="closeBox('services-overlay')">&times;</span>
+            <h2>My Services</h2>
+            <div class="services-list">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Responsive Design</h3>
+                <p>Websites that look great on any device.</p>
+            </div>
+           
+            <div class="services-item">
+                <i class="fas fa-code"></i>
+                <h3>Clean Code </h3>
+                <p>Writing neat and SEO-friendly HTML/CSS.</p>
+            </div>
+            <div class="service-item">
+                <i class="fab fa-js"></i> 
+                <h3>JS Interactivity</h3>
+                <p>Adding logic and life to your web pages.</p>
+            </div>
+        </div>
+    </div>
+    <div id="skills-overlay" class="overlay">
+        <div class="box">
+            <span class="close" onclick="closeBox('skills-overlay')">&times;</span>
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>Responsive Design</li>
+                <li>JavaScript (learning)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="education-overlay" class="overlay">
+        <div class="box">
+            <span class="close" onclick="closeBox('education-overlay')">&times;</span>
+            <h2>Educational Background</h2>
+            <ul>
+                <li><h3>Higher Secondary Certificate (HSC)</h3></li>
+                <li><strong>College:</strong>Belkuchi Government College</li>
+                <li><strong>Result:</strong>GPA 3.75</li>
+                <li><strong>Passing Year:</strong>2025</li>
+                <li>Along with my academic studies, I am passionately learning Web Development and JavaScript to build a future in Tech</li>
+            </ul>
+        </div>
+        </div>
+
+        <div id="experience-overlay" class="overlay">
+            <div class="box">
+                <span class="close" onclick="closeBox('experience-overlay')">&times;</span>
+                <h2>Work & Learning Experience</h2>
+                <div class="exp-item">
+                    <h2>Self-Employed Developer</h2>
+                    <p><strong>Duration:</strong>2025 - Present</p>
+                    <p>Working on various personal projects using HTML5, CSS3 and JavaScript. Focused on creating responsive and interactive web designs.</p>
+                </div>
+                <div class="exp-item">
+                    <h2>Open Source Contributor</h2>
+                    <p><strong>Platform:</strong>Github</p>
+                    <p>Regularly uploading code, managing repositories, and learning version control with Git.</p>
+                </div>
+            </div>
+        </div>
+    
+            <div id="contact-overlay" class="overlay">
+            <div class="box">
+                <span class="close" onclick="closeBox('contact-overlay')">&times;</span>
+                <h2>Contact Me</h2>
+                <p>I am available for collaboration and learning opportunities.</p>
+                <div class="contact-links" style="margin-top: 20px;">
+                    <div style="margin-bottom: 15px;">
+                        <i class="fa-solid fa-envelope" style="color: #ea4335;"></i>
+                        <a href="mailto:mostfarzanakhatun79@gmail.com" style="text-decoration: none; color: #333; margin-left: 10px;">Send an Email</a>
+                    </div>
+
+                    <div style="margin-bottom: 15px;">
+                        <i class="fa-brands fa-linkedin" style="color: #0077b5;"></i>
+                        <a href="https://www.linkedin.com/in/Most-Farzana-Khatun-5b90033a4" target="_blank" style="text-decoration: none; color: #333; margin-left: 10px;">LinkedIn Profile</a> 
+                    </div>
+                    <div style="margin-bottom: 15px;">
+                        <i class="fa-brands fa-github" style="color: #333;"></i>
+                          <a href="https://github.com/most-farzana" target="_blank" style="text-decoration: none; color: #333; margin-left: 10px; ">Github Repository</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        
+   </header> 
+<section id="home" class="hero">
+    <img src="photo.jpg" alt="Farzana Khatun" class="portfolio-img">
+    <h1 id="welcome-msg">Welcome! I am Farzana Khatun</h1>
+    <p>I am a  Web Developer and currently learning JavaScript.</p>
+    <button onclick="changeText()">Click for Magic!</button>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>  
+  <P>I am a passionate <strong>Web Developer</strong>from Bangladesh.
+I love building clean, responsive and user-friendly websites using HTML and CSS.
+currently, I am diveng deep into<strong>JavaScript</strong>to add more
+interactivety and logic to my projects. I enjoy solving problems and 
+always look for opportunities to learn new technologies.</P>
+</section>
+      
+<footer class="footer">
+    <div class="footer-content">
+        <h3>Most: Farzana Khatun</h3>
+        <P>Building the web with passion. Aspiring Web Developer.</P>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/Most-Farzana-Khatun-5b90033a4" target="_blank"><i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/most-farzana" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy;<span id="year"></span>Most: Farzana Khatun | All Rights Reserved</p>
+    </div>
+</footer>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
